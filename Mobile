@@ -1,0 +1,45 @@
+            Name :Sukhman kaur
+            Ide :000912335
+
+
+
+
+
+
+
+
+
+Web, hybrid, or native apps 
+We've made the decision to create a native application for the given circumstance. The necessity to have access to native capabilities like the camera, GPS, and push notifications as well as a cohesive user experience on both the iOS and Android platforms are the driving forces behind this decision. 
+
+UI Structure 
+The following UI frameworks will be used for the native application: 
+
+We'll utilize SwiftUI for iOS. 
+We'll utilize Jetpack Compose for Android. 
+Because each of these frameworks is created by the platform for which it is intended, native performance and the newest features are guaranteed. 
+
+Backend programming language 
+Because Node.js is user-friendly, has a large community, and has modules for developing RESTful APIs, we plan to use it for backend development. 
+
+Authorizations 
+In order to enable the necessary features for our application, we must ask for the following permissions: 
+
+access to cameras 
+GPS coordinates 
+Notifications via push 
+Internet connectivity 
+When the user needs to access a certain functionality, only then will these permissions be requested. 
+
+Data repository 
+We'll utilize a combination of cloud and on-device storage for data storage. 
+
+On-device storage: User-specific data, including offline data and app preferences and settings, will be stored on the device using SQLite. 
+Cloud storage: To store user-generated material like posts, photos, and comments, we'll use firebase firestore or store user-generated content, such as posts, images, and comments.
+Complementary architectures or technological stacks 
+We'll make use of the following to provide effective and secure connection between the app and the backend: 
+
+Authentication and authorization using JWT 
+For API requests, Axios 
+Push alerts with Firebase Cloud Messaging
+
